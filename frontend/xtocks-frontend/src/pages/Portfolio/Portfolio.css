@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.portfolio {
+  height: 100%;
+}
+.portfolio-container {
+  display: flex;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.portfolio-container-left {
+  flex: 0.15;
+}
+.portfolio-container-right {
+  background-color: white;
+  flex: 0.85;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.portfolio-sub-container-right {
+  background-color: rgb(245, 244, 244);
+  padding: 5px 10px 10px 10px;
+  height: 100%;
+}
+.portfolio-holdings-container {
+  background-color: white;
+  border-radius: 20px;
+  height: 85%;
+  margin-top: 10px;
+  overflow: hidden scroll;
+  /* position: relative; */
+}
+.portfolio-holdings-container::-webkit-scrollbar {
+  display: none;
+}
+.portfolio-holdings-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.portfolio-main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Secular One", sans-serif;
+  color: grey;
+  margin: 0;
+  margin-top: 15px;
+}
+.portfolio-heading {
+  width: 100%;
+  height: 60px;
+  margin: 3px;
+  border-bottom: 2px solid rgb(221, 222, 224);
+  display: flex;
+  margin: 5px 0;
+  /* position: fixed; */
+}
+.sub-heading {
+  flex-basis: calc(100% / 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stock-details {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin-left: 8px;
+}
+.sub-heading span {
+  font-family: "Secular One", sans-serif;
+  color: grey;
+}

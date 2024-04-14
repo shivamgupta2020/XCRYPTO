@@ -1,0 +1,25 @@
+.right_body {
+  background-color: #f5f6f8;
+  height: 600px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user_email {
+  font-weight: 200;
+  color: rgb(139, 148, 173);
+}
+.user_name {
+  font-weight: 900;
+  font-size: larger;
+}
+.user_info {
+  text-align: left;
+  margin-right: 30px;
+}
+.right_header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #3bcc94;
+}

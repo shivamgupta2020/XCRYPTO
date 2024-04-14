@@ -1,0 +1,90 @@
+.sell-card-main-container {
+  height: 60%;
+  width: 35%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.sell-card-balance-container {
+  background-color: rgba(214, 209, 203, 0.385);
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.sell-card-balance-container > h4 {
+  margin: 0;
+}
+.sell-card-balance-container span {
+  color: #3bcc94;
+  font-weight: 900;
+}
+.sell-card-stock-details {
+  display: flex;
+  align-items: center;
+}
+.sell-card-header {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sell-card-stats {
+  flex: 0.6;
+}
+
+.sell-card-slider {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sell-card-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sell-card-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sell-card-checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sell-card-button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sell-card-button-group button {
+  margin: 10px;
+}
+.sell-card-button-group .btn-danger {
+  background-color: rgb(223, 99, 99);
+}

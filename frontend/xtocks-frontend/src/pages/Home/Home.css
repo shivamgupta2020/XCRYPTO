@@ -1,0 +1,31 @@
+.home{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.home_header {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    height: 75px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    margin-left: 48px;
+}
+
+.header_menuitems{
+    margin-right: 48px;
+}
+
+.header_menuitems a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black   ;
+}

@@ -1,0 +1,23 @@
+.dashboard_container {
+  display: flex;
+  height: 600px;
+}
+.container_left {
+  flex: 0.15;
+}
+.container_right {
+  background-color: white;
+  flex: 0.85;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.container_rightBody{
+
+  background-color: #f5f6f8;
+  margin-top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}

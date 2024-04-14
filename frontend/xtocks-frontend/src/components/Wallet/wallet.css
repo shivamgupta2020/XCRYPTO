@@ -1,0 +1,48 @@
+.wallet_main{
+
+    width: 95%;
+    height: 30%;
+    border-radius: 30px;
+    background: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.wallet_container{
+
+    display: flex;
+    justify-content: space-between;
+    /* height: 80%; */
+    width: 90%;
+
+}
+.wallet_amounts{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+
+.wallet_amount{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+
+    flex-direction: column;
+    align-items: flex-end;
+}
+.wallet_heading{
+    width: 100%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    border-bottom: 1px dotted #8b94ad;
+}
+.wallet_heading>h2{
+    font-family: 'Noto Sans Avestan', sans-serif;
+
+}

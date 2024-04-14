@@ -1,0 +1,25 @@
+.SideMenu {
+  height: 100%;
+}
+.title {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.title h2 {
+  color: #3bcc94;
+  font-weight: "900";
+}
+.menu-container {
+  margin-bottom: 20px;
+}
+.subtitle {
+  padding-left: 20px;
+}
+
+/* .SideMenuVertical {
+  height: 100%;
+} */
